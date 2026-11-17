@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>Blink</Name>
+	<Priority>6000</Priority>
+	<Children>
+
+	</Children>
+	<BackLayer href="../Textures/blink.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</Y>
+	</Placement>
+	<TransparentInput>true</TransparentInput>
+</WidgetPanel>

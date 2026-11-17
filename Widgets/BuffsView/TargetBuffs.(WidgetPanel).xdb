@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+    <Name>TargetBuffs</Name>
+    <Priority>5000</Priority>
+    <Children>
+        <Item href="TargetIcon.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+    </Children>
+    <BackLayer href="../Textures/Placeholder.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+    <Placement>
+        <X>
+            <Align>WIDGET_ALIGN_HIGH</Align>
+            <Size>500</Size>
+            <HighPos>300</HighPos>
+        </X>
+        <Y>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>50</Size>
+            <Pos>250</Pos>
+        </Y>
+    </Placement>
+    <TransparentInput>true</TransparentInput>
+</WidgetPanel>

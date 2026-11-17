@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+    <Name>AvatarDebuffs</Name>
+	<Priority>5000</Priority>
+    <Children>
+        
+    </Children>
+    <BackLayer href="../Textures/Placeholder.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+    <Placement>
+        <X>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>500</Size>
+            <Pos>300</Pos>
+        </X>
+        <Y>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>50</Size>
+			<Pos>650</Pos>
+        </Y>
+    </Placement>
+    <TransparentInput>true</TransparentInput>
+</WidgetPanel>

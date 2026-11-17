@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>AvatarIcon</Name>
+	<Priority>5040</Priority>
+	<Children>
+		<Item href="StackText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="TimeText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Blink.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	</Children>
+	<BackLayer href="../Textures/Placeholder.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Size>50</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Size>50</Size>
+			<Pos>0</Pos>
+		</Y>
+	</Placement>
+	<Variants>
+		<Item>
+			<PushedOffset x="-2" y="2" />
+			<Reaction>LeftClick</Reaction>
+			<ReactionRightClick>RightClick</ReactionRightClick>
+		</Item>
+	</Variants>
+	<TransparentInput>true</TransparentInput>
+</WidgetButton>
